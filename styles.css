@@ -75,3 +75,192 @@
     height: 1.5rem;
     margin-left: 0.5rem;
 }
+
+
+
+.right_side {
+    display: grid;
+    grid-template: 1fr 5fr / 1fr;
+    height: 100vh;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.top_header,
+.bottom_header {
+    display: grid;
+    grid-template: 1fr / 3fr 1fr;
+}
+
+.search_box {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    align-items: center;
+}
+
+.clickable_img {
+    justify-self: end;
+}
+
+.search_form input {
+    width: 80%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(216, 219, 223);
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.8rem;
+}
+
+.notifications_user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+
+#gengar {
+    border-radius: 50%;
+    padding: 0.2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(148, 61, 230);
+    justify-self: center;
+}
+
+#bell {
+    justify-self: end;
+    height: 1.5rem;
+}
+
+.notifications_user P {
+    justify-self: start;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.bottom_header {
+    margin-top: 0.5rem;
+    position: relative;
+    box-shadow: 0px 2px 3px rgb(175 175 175);
+}
+
+.user_info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.user_info p {
+    font-size: 0.9rem;
+    justify-self: start;
+}
+
+#gengarV2 {
+    border-radius: 50%;
+    padding: 0.2rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(148, 61, 230);
+    justify-self: center;
+}
+
+.buttons_bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+#b1 button,
+#b2 button,
+#b3 button {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(148, 61, 230);
+    font-weight: bold;
+}
+
+.main {
+    max-height: 100%;
+    background-color: rgb(216, 219, 223);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.main_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: repeat(4fr, 1fr);
+    gap: 3rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border-left: 0.7rem solid rgb(148, 61, 230);
+    padding: 2rem;
+    height: 18vh;
+}
+
+.mod_icons {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.main_right {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 2rem;
+    gap: 3rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    ;
+    margin-top: 2rem;
+    max-width: 90%;
+}
+
+.pokemon img {
+    border-radius: 50%;
+    padding: 0.2rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(148, 61, 230);
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 90%;
+    height: 30vh;
+    gap: 2rem;
+    margin-top: 0.6rem;
+}
+
+.trending>.pokemon {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
