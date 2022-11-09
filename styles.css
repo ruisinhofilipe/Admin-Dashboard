@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.main_container {
+    display: grid;
+    grid-template: 1fr / 1fr 6fr;
+    height: 100vh;
+}
+
+.left_side {
+    background-color: rgb(148, 61, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.logo_title img {
+    display: inline-block;
+    height: 2.5rem;
+}
+
+.logo_title p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-left: 0.9rem;
+}
+
+.logo_title,
+.dashboard_1st_container,
+.dashboard_2nd_container {
+    margin-bottom: 4rem;
+}
+
+.left_side>.dashboard_1st_container p,
+.left_side>.dashboard_2nd_container p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+.dashboard_1st_container,
+.dashboard_2nd_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.dashboard_1st_container>div,
+.dashboard_2nd_container>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.left_side>.dashboard_1st_container img,
+.left_side>.dashboard_2nd_container img {
+    display: inline-block;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+}
